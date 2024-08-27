@@ -1,0 +1,365 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">	
+<link href="css/login.css" rel="stylesheet" type="text/css">
+<title>Bienvenido</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="expires" content="-1" />
+</head>
+<link href="js/jQueryv3.3.1.js" rel="stylesheet" type="text/css">
+<link href="css/loginmarquee.min.css" rel="stylesheet" type="text/css">
+<body>
+	
+	<div class="container-fluid clouds">
+	
+		
+		<div class="white-mod text-md-center">&nbsp;
+     
+     <script language="JavaScript" type="text/javascript">
+
+    //<![CDATA[
+
+    <!--
+
+    today = new Date()
+
+    if(today.getMinutes() < 10){
+
+    pad = "0"}
+
+    else
+
+    pad = "";
+
+    document.write ;if((today.getHours() >=5) && (today.getHours() <=9)){
+
+    document.write("¡Buenos días!")
+
+    }
+
+    if((today.getHours() >=10) && (today.getHours() <=11)){
+
+    document.write("¡Buen día!")
+
+    }
+
+    if((today.getHours() >=12) && (today.getHours() <=18)){
+
+    document.write("¡Buenas tardes!")
+
+    }
+
+    if((today.getHours() >=19) && (today.getHours() <=23)){
+
+    document.write("¡Buenas noches!")
+
+    }
+	
+    if((today.getHours() >=00) && (today.getHours() <=4)){
+
+    document.write("¡Buenos días, Vaya es de madugada!")
+
+    }
+
+    // -->
+
+    //]]>
+
+    </script>    
+
+     &nbsp;/&nbsp;
+     
+ <script type="text/javascript">
+var d=new Date();
+var dia=new Array(7);
+dia[0]="Domingo";
+dia[1]="Lunes";
+dia[2]="Martes";
+dia[3]="Miercoles";
+dia[4]="Jueves";
+dia[5]="Viernes";
+dia[6]="Sabado";
+document.write("Hoy es: " + dia[d.getDay()]);  
+          </script>     
+     
+ <script type="text/javascript">
+var d = new Date();
+document.write(''+d.getDate());
+</script>
+
+<script type="text/javascript">
+var mm=new Date();
+var m2 = mm.getMonth() + 1;
+var mesok = (m2 < 10) ? '0' + m2 : m2;
+var mesok=new Array(12);
+mesok[0]="Enero";
+mesok[1]="Febrero";
+mesok[2]="Marzo";
+mesok[3]="Abril";
+mesok[4]="Mayo";
+mesok[5]="Junio";
+mesok[6]="Julio";
+mesok[7]="Agosto";
+mesok[8]="Septiembre";
+mesok[9]="Octubre";
+mesok[10]="Noviembre";
+mesok[11]="Diciembre";
+document.write("de " + mesok[mm.getMonth()]);
+        </script>
+	<!--	
+     &nbsp;/&nbsp;   
+     -->	
+</div>
+			
+		<div class="fondotrasparentelogo col-md-10 separador bordeslog"> <img class="img-fluid" src="blueLogo.png" /> </div>
+			
+		      <div class="informacion"> <font>
+        <marquee direction="LEFT" loop="20">
+        Compra tu Ticket de <strong> 1 Hora, 1 Hora Duo o 30 Minutos</strong>. Dirígete a donde era El Cyber Tierra Blanca o contacta al: <strong>(0414) 8496211 </strong>
+        </marquee>
+        </font> </div>
+			
+	  <div class="row separacionarriba col-md-12">
+		
+
+<!-- Empieza collapse-->
+			<!-- 
+			<div class="accordion bordes degradado separador clouds col-md-8" id="accordionExample">
+			<div class="accordion separador col-md-9" id="accordionExample">
+
+-->
+			
+		<div class="accordion separador col-md-9" id="accordionExample">
+  
+			<!-- Empieza Login-->
+			<div class="card bordesDos">
+    <div class="card-header" id="headingOne">
+      
+	  
+	  <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <strong>  Inicia sesión con el código de el Ticket</strong>
+        </button>
+      </h2>
+	  
+	  
+	  
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+
+		  
+		  		<div class=" bordes degradado separador clouds col-md-8">
+      
+		
+      $(if chap-id)
+	  
+      <form name="sendin" action="$(link-login-only)" method="post">
+        <input type="hidden" name="username" />
+        <input type="hidden" name="password" />
+        <input type="hidden" name="dst" value="$(link-orig)" />
+        <input type="hidden" name="popup" value="true" />
+      </form>
+      <script type="text/javascript" src="/md5.js"></script> 
+      <script type="text/javascript">
+	<!--
+	    function doLogin() {
+		document.sendin.username.value = document.login.username.value;
+		document.sendin.password.value = hexMD5('$(chap-id)' + document.login.password.value + '$(chap-challenge)');
+		document.sendin.submit();
+		return false;
+	    }
+	//-->
+	</script> 
+	
+      $(endif)
+	  
+      <div class="informa col-md-12 bordes">Inicia sesión con el código de el Ticket</div>
+	
+      <form class="formulario" name="login" action="$(link-login-only)" method="post" background="#A03472"
+	$(if chap-id) onSubmit="return doLogin()" $(endif)>
+	
+        <input type="hidden" name="dst" value="$(link-orig)" />
+        <input type="hidden" name="popup" value="true" />
+        <legend> </legend>
+        <input name="username" type="text" value="$(username)" placeholder="Ingresa el Código Aquí"  />
+      
+      <div hidden>
+        <input autocomplete="off" name="password" type="password" label="false" placeholder="Ingresa tu Contraseña"  />
+        </div> 
+		
+        <input name="submit" type="submit" value="CONECTAR A INTERNET" />
+		
+      </form> 
+    
+<details>
+
+  <summary><strong>Lea las instrucciones de uso de la RED AQUI</strong></summary>
+  
+  <p>&nbsp;</p>
+   
+  <div class="textologin">
+  
+    <p>Antes de iniciar sesión aprende como es el funcionamiento de esta red. </p>
+     
+  <p>  Esta página que estás viendo, su enlace es: <strong>konkito.wifi</strong>
+que es igual a: <strong>192.168.2.1</strong> esta página solo funciona estando conectado a esta red. </p>
+    
+  <p>  Iniciada la sesión hay una página de estatus que sirve para consultar el tiempo de conexión del Ticket que estes usando,  también estando en esta página puedes cerrar sesión para que quede guardado el tiempo restante para usarlo más tarde.
+    </p>
+   <p> Ingresa a este enlace desde el navegador web que uses a: <strong>konkito.wifi/status</strong> que es igual a <strong>192.168.2.1/status</strong> 
+    </p>
+   <p> También puedes cerrar sesión desconectándote de la red: <strong>KONKITO Internet por Ticket</strong>, quedando guardado el tiempo restante. 
+    </p>
+  <p>  Si tienes un Ticket intoduce el Código PIN en la casilla <strong>"Ingresa el Código Aquí</strong> y luego le das en en el botón azul <strong>CONECTAR A INTERNET</strong> </p>
+  
+  </div> 
+  
+ <p>&nbsp;</p>
+ 
+</details>
+          
+      <p>$(if trial == 'yes')
+		  
+		  
+		<div class="alert alert-info text-center gratis"><p>Tienes 5 minutos de conexión a Internet</p>   <p><a href="$(link-login-only)?dst=$(link-orig-esc)&username=T-$(mac-esc)">Haga Clic Aquí</a></p></div> 
+		  
+			
+					
+      $(endif)
+      </p>
+      <p>$(if error) $(error) $(endif)</p>
+
+
+    </div>
+			
+	  
+	  </div>
+    </div>
+  </div>
+            <!-- Termina Login-->
+  <!-- Empieza Ticket Gratis-->
+  <div class="card bordesDos">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <strong>Ticket Gratis</strong>
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+    	
+		  
+<img src="suerte.jpg" alt="" width="1170" height="331" class="img-fluid bordes "/>
+			
+	<div class="bordesTres">  		
+	
+      <p>Prueba tu suerte, introduce el código mostrado en los Ticket,<br>
+pueden tenener 1 hora o 30 minutos Gratis.</p>
+       <p> Estos códigos se resetean tres veces a la semana. </p>
+	</div>
+	   
+	  </div>
+    </div>
+  </div>
+  <!-- Termina Ticket Gratis-->
+  
+</div>
+		
+<!-- Termina collapse-->
+		
+<!--Empieza Promociones-->
+		
+	    <div class="col-md-11 degradado separador clouds bordes"> 
+			
+			  <div class="row">
+			
+					    <div class="col-sm-6">
+      
+			<img src="Precios.png" alt="" width="1170" height="331" class="img-fluid bordes "/>
+			
+			</div>
+
+			<div class="col-sm-6">
+				  
+				  
+		  <img src="PagoMovil.png" alt="" width="1170" height="331" class="img-fluid bordes "/>
+			
+				</div>
+			<div class="col-sm-6">
+		
+			  <img src="PruebaGratuita.png" alt="" width="1170" height="331" class="img-fluid bordes "/>	
+			
+			</div>
+				  
+						<div class="col-sm-6">
+		
+			  <img src="ConectaDos.png" alt="" width="1170" height="331" class="img-fluid bordes "/>	
+			
+			</div>	  
+				  		  
+		 </div>
+				  
+	</div>	
+<!--Termina Promociones-->		
+		
+<!--Empieza marquee por css-->				
+ <div class="col-md-12"> 
+	 	 
+<div class="marquee">
+	<ul class="marquee-content">
+		<li> <img src="hora.png" alt="" width="70" height="49" class="img-fluid"/>
+		</li>
+		<li>
+			Se venden 50 Ticket DUO por día, pregunta disponibilidad.
+		</li>
+		<li>
+			<img src="hora.png" alt="" width="70" height="49" class="img-fluid"/>
+		</li>
+				<li>
+			Se venden 50 Ticket DUO por día, pregunta disponibilidad.
+		</li>
+				<li>
+			<img src="hora.png" alt="" width="70" height="49" class="img-fluid"/>
+		</li>
+				<li>
+			Se venden 50 Ticket DUO por día, pregunta disponibilidad.
+		</li>
+	</ul>
+	  </div>
+						
+		</div>
+<!--Termina marquee por css-->		
+	
+<!--Empieza Sonido-->  
+		
+		<audio title="Sonido" preload="auto" autoplay="autoplay" loop="loop" >
+		  <source src="meetingpoint.mp3" type="audio/mp3">
+		  <p>Sonido sistema</p>
+	    </audio>
+		
+		
+		
+
+<!--Termina Sonido--> 
+	
+        </div>
+		
+					
+	
+	</div>
+<script type="text/javascript">
+<!--
+  document.login.username.focus();
+//-->
+</script>	
+<script src="js/jQueryv3.3.1.js"></script>	
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>	
+</body>
+</html>

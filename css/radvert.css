@@ -1,0 +1,31 @@
+/* styles.css */
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container-fluid {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-center {
+    text-align: center;
+    color: #737373;
+    font-size: 12px;
+    font-family: verdana;
+}
+
+a, a:link, a:visited, a:active {
+    color: #AAAAAA;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+a:hover {
+    border-bottom: 1px dotted #c1c1c1;
+    color: #AAAAAA;
+}
